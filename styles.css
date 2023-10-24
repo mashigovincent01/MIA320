@@ -30,7 +30,7 @@
 
 .grid-item{
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	border: solid black 1.5px;
 	background-color: rgba(255, 255, 255, 0.8);
 }
@@ -48,7 +48,17 @@
 	background-color: rgb(43, 45, 51);
 	color: darkblue;
 }
+#map{
+  width: 100%;
+  margin:auto;
+  display: block;
+  height: 90vh !important;
 
+}
+.view{
+  text-decoration: none;
+  color: white;
+}
 
 .flex-container{
 	display: flex;
@@ -159,3 +169,8 @@
   background-color: #252527;
 }
 
+
+
+#map {
+  height: 100%;
+}
